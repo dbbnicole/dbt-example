@@ -14,6 +14,10 @@ with source_data as (
     select 1 as id
     union all
     select 42 as id
+    union all
+    select 1024 as id
+    union all
+    select 2048 as id
 
 )
 
