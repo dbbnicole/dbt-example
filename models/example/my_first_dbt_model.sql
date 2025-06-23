@@ -18,6 +18,10 @@ with source_data as (
     select 1024 as id
     union all
     select 2048 as id
+    union all
+    select 625 as id
+    union all
+    select 2 as id
 
 )
 
